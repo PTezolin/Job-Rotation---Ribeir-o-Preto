@@ -2,9 +2,9 @@
 Realização da atividade
 
 # 1) Observe o trecho de código abaixo:
-int INDICE = 13, SOMA = 0, K = 0;
-enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K;}
-imprimir(SOMA);
+    int INDICE = 13, SOMA = 0, K = 0;
+    enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K;}
+    imprimir(SOMA);
 
     Nesse codigo três variáveis são definidas: INDICE com valor 13, SOMA com valor 0 e K com valor 0. 
     Em seguida, o laço de repetição é iniciado a condição de que enquanto K for menor que INDICE, o bloco de código dentro do laço será executado. Dentro do laço, K é incrementado em 1 a cada iteração e SOMA é atualizado adicionando-se K a ela.
