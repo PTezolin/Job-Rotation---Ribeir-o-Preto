@@ -83,8 +83,7 @@ c) Explique como chegou no resultado.
     - Distância percorrida pelo carro = Velocidade x Tempo do carro = 110 km/h x 0,91 horas = 100 km
     - Distância percorrida pelo caminhão = Velocidade x Tempo do caminhão = 80 km/h x 1,4167 horas = 113,33 km
     
-    Portanto, quando se cruzarem, o carro estará mais próximo de Ribeirão Preto, pois terá percorrido uma distância de exatamente 100 km, enquanto
-o caminhão terá percorrido uma distância de 113,33 km.
+    Portanto, quando se cruzarem, o carro estará mais próximo de Ribeirão Preto, pois terá percorrido uma distância de exatamente 100 km, enquanto o caminhão terá percorrido uma distância de 113,33 km.
 
 # 5) Escreva um programa que inverta os caracteres de um string.
     a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
