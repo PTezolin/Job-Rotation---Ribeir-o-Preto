@@ -64,3 +64,38 @@ while True:
       f) 2,10, 12, 16, 17, 18, 19, ____
           R: 27 (sequencia de soma seria 8, 2, 4, 1, 1, 1, 1, se iniciando novamente completar a sequencia)
         
+# 4) Dois veículos (um carro e um caminhão) saem respectivamente de cidades opostas pela mesma rodovia. O carro de Ribeirão Preto em direção 
+a Franca, a uma velocidade constante de 110 km/h e o caminhão de Franca em direção a Ribeirão Preto a uma velocidade constante de 80 km/h. 
+Quando eles se cruzarem na rodovia, qual estará mais próximo a cidade de Ribeirão Preto?
+
+a) Considerar a distância de 100km entre a cidade de Ribeirão Preto <-> Franca.
+b) Considerar 2 pedágios como obstáculo e que o caminhão leva 5 minutos a mais para passar em cada um deles e o carro possui tag de pedágio (Sem Parar)
+c) Explique como chegou no resultado.
+
+    Quando o carro e o caminhão se cruzarem na rodovia, eles terão percorrido juntos uma distância igual a 100 km (distância entre Ribeirão Preto e Franca). O tempo que cada veículo leva para percorrer essa distância é dado por:
+
+    - Tempo do carro = Distância / Velocidade = 100 km / 110 km/h = 0,91 horas
+    - Tempo do caminhão = Distância / Velocidade = 100 km / 80 km/h = 1,25 horas
+    - No entanto, o caminhão leva mais 5 minutos (ou 0,0833 horas) em cada um dos dois pedágios, totalizando 10 minutos (ou 0,1667 horas) a mais em 
+    todo o trajeto. Assim, o tempo total do caminhão será:
+    - Tempo total do caminhão = Tempo do caminhão + tempo nos pedágios = 1,25 horas + 0,1667 horas = 1,4167 horas
+    - Agora, para determinar qual veículo estará mais próximo de Ribeirão Preto quando se cruzarem, basta calcular a distância percorrida por cada um:
+    - Distância percorrida pelo carro = Velocidade x Tempo do carro = 110 km/h x 0,91 horas = 100 km
+    - Distância percorrida pelo caminhão = Velocidade x Tempo do caminhão = 80 km/h x 1,4167 horas = 113,33 km
+    
+    Portanto, quando se cruzarem, o carro estará mais próximo de Ribeirão Preto, pois terá percorrido uma distância de exatamente 100 km, enquanto
+o caminhão terá percorrido uma distância de 113,33 km.
+
+# 5) Escreva um programa que inverta os caracteres de um string.
+    a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
+    b) Evite usar funções prontas, como, por exemplo, reverse;
+
+print("--------------------------------------------")
+string = input("-  Informe uma string: ")
+print("--------------------------------------------")
+
+string_invertido = ""
+for i in range(len(string)-1, -1, -1):
+    string_invertido += string[i]
+
+print("A string invertida é:", string_invertido)
